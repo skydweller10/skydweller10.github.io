@@ -1,0 +1,62 @@
+.box1 {color:blue;
+font-weight:bold;
+background-color:lightpink;}
+
+.box2 {color:blue;
+font-weight:bold;
+background-color:lightpink;}
+
+.s1 {
+  color:blue;
+}
+
+.s2 {
+  color:blue;
+  font-family: Arial;
+
+}
+.s3 {
+  color:blue;
+  font-family: Arial;
+  font-size: 20px;
+}
+.s4 {
+  color:blue;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+}
+.s5 {
+  color:blue;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: yellow;
+}
+.s6 {
+  color:blue;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: yellow;
+  box-shadow: 5px 1px;
+}
+.s7 {
+  color:blue;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: yellow;
+  box-shadow: 5px 2px;
+  border: solid red;
+}
+.s8 {
+  color:blue;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: yellow;
+  box-shadow: 5px 3px;
+  border: solid red;
+  border: dotted black;
+}
