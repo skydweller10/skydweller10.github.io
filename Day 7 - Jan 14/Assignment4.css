@@ -1,0 +1,155 @@
+body {
+  background-image: url("season.jpg");
+}
+
+
+.flexbox{
+  display: flex;
+  justify-content: center;
+  background-color: tansparent green;
+}
+
+
+.fruits img{
+  width: 300px;
+  height: 300px;
+}
+
+.vegetables img{
+  width: 300px;
+  height: 300px;
+}
+
+.fruits{
+  border: 5px solid blue;
+  background: white;
+  width:60%;
+  height: 30%;
+  margin: 5%;
+  padding: 5%;
+  text-align: center;
+
+}
+
+.vegetables{
+  border: 5px solid green;
+  background: yellow;
+  width:60%;
+  height: 30%;
+  margin: 5%;
+  padding: 5%;
+  text-align: center;
+}
+
+.btn-2{
+  background-color: orange;
+  color: black;
+  width: 29%;
+  text-align: center;
+  font-size: 15px;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+/* Fruits CSS */
+.btn {
+  background-color: orange;
+  text-decoration: none;
+  border: 2px solid purple;
+  border-radius: 42px;
+  padding: 2%;
+
+}
+
+
+.mdl{
+  /*background-color: rgba(255,24,11,0.6);*/
+  /*height: 100vh;*/
+  background-color: rgba(0,191,167,0.6);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.mdl:target{
+  opacity: 1;
+  pointer-events: all;
+}
+
+.mdl:hover{
+  opacity: 1;
+}
+
+.msgblock {
+  background-color: lightblue;
+  width: 50%;
+  margin: auto;
+  height: 700px;
+}
+
+
+.close{
+  background-color: gray;
+  text-decoration: none;
+  border: 2px solid black;
+  border-radius: 42px;
+  padding: 2%;
+}
+
+
+
+/* Vegetables CSS */
+
+.btn2 {
+  background-color: orange;
+  text-decoration: none;
+  border: 2px solid purple;
+  border-radius: 42px;
+  padding: 2%;
+
+}
+
+
+.mdl2{
+  /*background-color: rgba(255,24,11,0.6);*/
+  /*height: 100vh;*/
+  background-color: rgba(0, 253, 111, 0.6);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.mdl2:target{
+  opacity: 1;
+  pointer-events: all;
+}
+
+.mdl2:hover{
+  opacity: 1;
+}
+
+.msgblock2 {
+  background-color: lightgreen;
+  width: 50%;
+  margin: auto;
+  height: 700px;
+}
+
+
+.close2{
+  background-color: gray;
+  text-decoration: none;
+  border: 2px solid black;
+  border-radius: 42px;
+  padding: 2%;
+}
